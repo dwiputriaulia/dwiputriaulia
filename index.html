@@ -4,10 +4,102 @@
     <title>Perpustakaan Dwi Putri Aulia</title>
   </head>
   <body>
-    <h1>Perpustakaan Dwi Putri Aulia</h1>
-    <p><b>Selamat datang di Perpustakaan Saya</b></p>
-    <h2>About Me</h2>
-    <p>Hai! Perkenalkan nama saya Dwi Putri Aulia dan saya senang anda berkunjung! Saya adalah Mahasiswa S1 Perpustakaan dan Sains Informasi di Universitas Sumatera Utara. Disini anda dapat menemukan berbagai konten yang nantinya saya bagikan. Selamat datang di dunia saya!"</p>
+    <header>
+      <h1>Perpustakaan Dwi Putri Aulia</h1>
+      <p><b>Selamat datang di Perpustakaan Saya</b></p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a herf="index.html" class="active">Home</a></li>
+        <li><a herf="about.html" class="active">About Me</a></li>
+        <li><a herf="contact.html" class="active">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>About Me</h2>
+      <p>Hai! Perkenalkan nama saya Dwi Putri Aulia dan saya senang anda berkunjung! Saya adalah Mahasiswa S1 Perpustakaan dan Sains Informasi di Universitas Sumatera Utara. Disini anda dapat menemukan berbagai konten yang nantinya saya bagikan. Selamat datang di dunia saya!"</p>
+    </main>
+
+    <main>
+      <h2>Biodata</h2>
+      <tabel>
+        <tr>
+          <th>Informasi</th>
+          <th>Detail</th>
+        </tr>
+        <tr>
+          <td>Nama</td>
+          <td>Dwi Putri Aulia</td>
+        </tr>
+        <tr>
+          <td>NIM</td>
+          <TD>220709004</TD>
+        </tr>
+        <tr>
+          <td>Jenis Kelamin</td>
+          <td>Perempuan</td>
+        </tr>
+        <tr>
+          <td>Semester</td>
+          <td>6</td>
+        </tr>
+        <tr>
+          <td>Program Studi</td>
+          <td>Perpustakaan dan Sains Informasi</td>
+        </tr>
+        <tr>
+          <td>Fakultas</td>
+          <td>Ilmu Budaya</td>
+        </tr>
+        <tr>
+          <td>E-mail</td>
+          <td>dwip.aulia@gmail.com</td>
+        </tr>
+      </tabel>
+    </main>
+
+    <main>
+      <h2>Formulir Kritik dan Saran</h2>
+      <form action="#" method="post">
+        <tabel>
+          <tr>
+            <th>Informasi</th>
+            <th>Detail</th>
+          </tr>
+          <tr>
+            <td>Nama</td>
+            <td><input type="text" name="nama" required placeholder="Masukkan nama anda"/></td>
+          </tr>
+          <tr>
+            <td>E-mail</td>
+            <td><input type="e-mail" name="e-mail" required placeholder="Masukkan e-mail anda"/></td>
+          </tr>
+          <tr>
+            <td>Jenis Pengaduan</td>
+            <td>
+              <select name="jenis_pengaduan" required>
+                <option value="">Pilih Jenis</option>
+                <option value="kritik">Kritik</option>
+                <option value="saran">Saran</option>
+                <option value="lainnya">Lainnya</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Pesan</td>
+            <td><textarea name="pesan" rows="4" required placeholder="Tulis Pesan Anda"></textarea></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <button type="submint">Kirim</button>
+            </td>
+          </tr>
+        </tabel>
+      </form>
+    </main>
+    
     <h3>Collaboration</h3>
     <p><a href="https://perpustakaan.unas.ac.id/">Perpustakaan Universitas Nasional</a></p>
   </body>
