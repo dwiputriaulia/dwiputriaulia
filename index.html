@@ -1,110 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Perpustakaan Dwi Putri Aulia</title>
-  </head>
-  <body>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Perpustakaan Dwi Putri Aulia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e3f2fd;
+            color: #333;
+        }
+        header {
+            background-color: #E09f3e;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 3px solid #333; /* Menambahkan garis pemisah */
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            background-color: white;
+            color: #E09f3e;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid #E09f3e;
+            font-weight: bold;
+            text-align: center;
+        }
+        nav ul li a:hover {
+            background-color: #E09f3e;
+            color: white;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #E09f3e;
+            color: white;
+        }
+    </style>
+</head>
+<body>
     <header>
-      <section id="index.html">
         <h1>Perpustakaan Dwi Putri Aulia</h1>
-        <p><b>Selamat datang di Perpustakaan Saya</b></p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-      <ul>
-        <li><a herf="index.html" class="active">Home</a></li>
-        <li><a herf="about.html" class="active">About Me</a></li>
-        <li><a herf="contact.html" class="active">Contact Us</a></li>
-      </ul>
-    </nav>
+    <section id="home">
+        <h2>Selamat Datang di Website Perpustakaan!</h2>
+        <p>
+            Halo! Selamat datang di Perpustakaan Dwi Putri Aulia. Di sini saya akan berbagi tentang berbagai kegiatan yang saya lakukan selama kuliah di program S1 Perpustakaan dan Sains Informasi di Universitas Sumatera Utara.
+        </p>
+        <p>
+            Website ini juga jadi tempat untuk posting tugas-tugas mata kuliah yang sudah saya kerjakan, proyek-proyek kecil, dan hal-hal seru lainnya yang berkaitan dengan dunia perpustakaan. Jadi, kalau kalian tertarik dengan apa yang saya pelajari dan kerjakan selama kuliah, ini tempatnya!
+        </p>
+        <p>
+            Semoga apa yang saya bagikan bisa bermanfaat dan menambah wawasan, baik untuk saya maupun kalian yang mampir ke sini. Terima kasih sudah berkunjung!
+        </p>
+    </section>
 
-    <main>
-      <section id="about.html">
-        <h2>About Me</h2>
-        <p>Hai! Perkenalkan nama saya Dwi Putri Aulia dan saya senang anda berkunjung! Saya adalah Mahasiswa S1 Perpustakaan dan Sains Informasi di Universitas Sumatera Utara. Disini anda dapat menemukan berbagai konten yang nantinya saya bagikan. Selamat datang di dunia saya!"</p>
-    </main>
+    <footer>
+        <p>&copy; 2025 - Dwi Putri Aulia</p>
+    </footer>
 
-    <main>
-      <section id="about.html">
-        <h2>Biodata</h2>
-        <tabel>
-          <tr>
-            <th>Informasi</th>
-          <th>Detail</th>
-          </tr>
-          <tr>
-            <td>Nama</td>
-            <td>Dwi Putri Aulia</td>
-          </tr>
-          <tr>
-            <td>NIM</td>
-            <td>220709004</td>
-          </tr>
-          <tr>
-            <td>Jenis Kelamin</td>
-            <td>Perempuan</td>
-          </tr>
-          <tr>
-            <td>Semester</td>
-            <td>6</td>
-          </tr>
-          <tr>
-            <td>Program Studi</td>
-            <td>Perpustakaan dan Sains Informasi</td>
-          </tr>
-          <tr>
-            <td>Fakultas</td>
-            <td>Ilmu Budaya</td>
-          </tr>
-          <tr>
-            <td>E-mail</td>
-            <td>dwip.aulia@gmail.com</td>
-          </tr>
-        </tabel>
-    </main>
-
-    <main>
-      <section id="contact.html">
-      <h2>Formulir Kritik dan Saran</h2>
-      <form action="#" method="post">
-        <tabel>
-          <tr>
-            <th>Informasi</th>
-            <th>Detail</th>
-          </tr>
-          <tr>
-            <td>Nama</td>
-            <td><input type="text" name="nama" required placeholder="Masukkan nama anda"/></td>
-          </tr>
-          <tr>
-            <td>E-mail</td>
-            <td><input type="e-mail" name="e-mail" required placeholder="Masukkan e-mail anda"/></td>
-          </tr>
-          <tr>
-            <td>Jenis Pengaduan</td>
-            <td>
-              <select name="jenis_pengaduan" required>
-                <option value="">Pilih Jenis</option>
-                <option value="kritik">Kritik</option>
-                <option value="saran">Saran</option>
-                <option value="lainnya">Lainnya</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td>Pesan</td>
-            <td><textarea name="pesan" rows="4" required placeholder="Tulis Pesan Anda"></textarea></td>
-          </tr>
-          <tr>
-            <td colspan="2" style="text-align: center">
-              <button type="submint">Kirim</button>
-            </td>
-          </tr>
-        </tabel>
-      </form>
-    </main>
-    
-    <h3>Collaboration</h3>
-    <p><a href="https://perpustakaan.unas.ac.id/">Perpustakaan Universitas Nasional</a></p>
-  </body>
+    <script>
+        function borrowBook(bookTitle) {
+            let list = document.getElementById("borrowed-list");
+            let item = document.createElement("li");
+            item.textContent = bookTitle;
+            list.appendChild(item);
+        }
+        function searchBook() {
+            alert("Fitur pencarian sedang dalam pengembangan");
+        }
+    </script>
+</body>
 </html>
